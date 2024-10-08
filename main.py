@@ -49,6 +49,7 @@ def main():
     hero_1 = Hero("Astarion", 175)
     archer_1 = Archer("Shadowhearth", 125, 12)
     wizard_1 = Wizard("Auqherus", 155, 250)
+    
     print(f"Hero's name: {hero_1.get_name()}")
     print(f"Hero's health: {hero_1.get_health()}\n")
 
